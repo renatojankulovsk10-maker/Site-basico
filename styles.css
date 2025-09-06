@@ -4,7 +4,7 @@
   box-sizing: border-box;
   background-color: black;
 }
-
+body {background-color: black;}
 
 h1 {
   color: red;
