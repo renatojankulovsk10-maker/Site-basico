@@ -42,7 +42,7 @@ function foto3() {
       </video> `;
     } else {
         container.innerHTML = `
-      <img class="foto3" src="imagens/3lugar.jpeg" width="300" onclick="foto3()" />
+      <img class="foto3" src="Imagens/3lugar.jpeg" width="300" onclick="foto3()" />
     `;
     }
     
