@@ -57,15 +57,16 @@ margin: 5px;
 #paragrafo1 {
 color: red;
 font-size: 30px;
-font: bold;
-font-style: sans;
+font-weight: bold;
+font-family: sans-serif;
+
 
 }
 
 #paragrafo2 {
     color: red;
-    font: bold;
-    font-style: sans-br;
+  font-weight: bold;
+font-family: sans-serif;
     font-size: 30px;
 }
 p {
@@ -82,4 +83,22 @@ p {
 }
 .foto3 {
     cursor: pointer;
+
+}
+
+@media (max-width: 600px) {
+  h1, p {
+    font-size: 20px;
+  }
+
+  .media-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .foto1, .foto2, .foto3,
+  .video1, .video2, .video3 {
+    width: 100%;
+    height: auto;
+  }
 }
