@@ -1,3 +1,5 @@
+
+
 function foto1() {
   let imagem = document.querySelector(".foto1");
 
@@ -46,3 +48,4 @@ function foto3() {
     
 
 }
+
