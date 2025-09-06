@@ -3,8 +3,8 @@
 function foto1() {
   let imagem = document.querySelector(".foto1");
 
-  const imagemOriginal = "assets/images/capa 1.jpeg";      
-  const imagemAlternativa = "assets/images/1.jpg";
+  const imagemOriginal = "Imagens/capa.jpeg";      
+  const imagemAlternativa = "Imagens/1.jpg";
 
   let nomeAtual = imagem.src.split("/").pop();
 
@@ -18,8 +18,8 @@ function foto2() {
     let imagem = document.querySelector(".foto2")     
 
 
-    const imagemOriginal = "assets/images/segundo lugar.jpeg";
-    const imagemAlternativa = "assets/images/2.jpg";
+    const imagemOriginal = "Imagens/2lugar.jpeg";
+    const imagemAlternativa = "imagens/2.jpg";
 
     let nomeAtual = imagem.src.split("/").pop();
 
@@ -36,16 +36,15 @@ function foto3() {
 
     if (elementoAtual.tagName === "IMG") {
         container.innerHTML = `
-      <video class="video3" width="200" heigth="200" autoplay muted onclick="foto3()">
-        <source src="media/videos/3.mp4" type="video/mp4">
+      <video class="video3" width="200" height="200" autoplay muted onclick="foto3()">
+        <source src="Videos/3.mp4" type="video/mp4">
         Seu navegador não suporta vídeo.
       </video> `;
     } else {
         container.innerHTML = `
-      <img class="foto3" src="assets/images/3 lugar.jpeg" width="300" onclick="foto3()" />
+      <img class="foto3" src="imagens/3lugar.jpeg" width="300" onclick="foto3()" />
     `;
     }
     
 
 }
-
