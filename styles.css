@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+background-color: black;
+}
+
+
+h1 {
+color: red;
+font-size: 30px;
+}
+
+.foto1 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.foto2 {
+width: 200px;
+height: 200px;
+object-fit: cover;
+}
+
+.foto3 {
+width: 200px;
+height: 200px;
+object-fit: cover;
+
+}
+.video3{
+margin-top: -200px;
+margin: 5px;
+
+}
+.media3 {
+    margin-left: 200px;
+}
+.media-container {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  
+}
+
+.media-container img,
+.media-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+
+
+#paragrafo1 {
+color: red;
+font-size: 30px;
+font-weight: bold;
+font-family: sans-serif;
+
+
+}
+
+#paragrafo2 {
+    color: red;
+  font-weight: bold;
+font-family: sans-serif;
+    font-size: 30px;
+}
+p {
+    color: red;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.foto1 {
+    cursor: pointer;
+}
+.foto2 {
+    cursor: pointer;
+}
+.foto3 {
+    cursor: pointer;
+
+}
+
+@media (max-width: 600px) {
+  h1, p {
+    font-size: 20px;
+  }
+
+  .media-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .foto1, .foto2, .foto3,
+  .video1, .video2, .video3 {
+    width: 100%;
+    height: auto;
+  }
+}
