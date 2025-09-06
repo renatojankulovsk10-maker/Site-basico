@@ -14,10 +14,10 @@ function foto1() {
 }
 function foto2() {
     let imagem = document.querySelector(".foto2")     
-media/videos/
 
-    const imagemOriginal = "assets/images/segundo lugar.jpeg"
-    const imagemAlternativa = "assets/images/2.jpg"
+
+    const imagemOriginal = "assets/images/segundo lugar.jpeg";
+    const imagemAlternativa = "assets/images/2.jpg";
 
     let nomeAtual = imagem.src.split("/").pop();
 
@@ -46,3 +46,4 @@ function foto3() {
     
 
 }
+
