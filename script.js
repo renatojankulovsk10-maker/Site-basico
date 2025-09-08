@@ -19,7 +19,7 @@ function foto2() {
 
 
     const imagemOriginal = "Imagens/2lugar.jpeg";
-    const imagemAlternativa = "imagens/2.jpg";
+    const imagemAlternativa = "Imagens/2.jpg";
 
     let nomeAtual = imagem.src.split("/").pop();
 
@@ -42,7 +42,7 @@ function foto3() {
       </video> `;
     } else {
         container.innerHTML = `
-      <img class="foto3" src="imagens/3lugar.jpeg" width="300" onclick="foto3()" />
+      <img class="foto3" src="Imagens/3lugar.jpeg" width="300" onclick="foto3()" />
     `;
     }
     
